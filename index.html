@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{% for post in paginator.posts %}
+	{% if post.layout contains 'link' %}
+	<h2 class="entry-title"><a href="{{ post.link }}">{{ post.title }}</a></h2>
+	<div class="entry-type">
+	<a href="{{ post.url }}"><img src="/images/link.gif"></a>
+	</div>
+	{% else %}
+	<h2 class="entry-title">{{ post.title }}</h2>
+	<div class="entry-type">
+	<a href="{{ post.url }}"><img src="/images/{{ post.layout }}.gif"></a>
+	</div>
+	{% endif %}
+	<div class="entry-content">
+	{{ post.content }}
+	</div>
+  	<p align="right" class="small">
+    	&mdash; <a href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
+  	</p>
+{% endfor %}
+	<div id="pagenav">
+		<div class="inside">
+			{% if paginator.previous_page == 1 %} 
+			<a id="forward" href="/">Anterograde&nbsp;&rarr;</a>
+			{% elsif paginator.previous_page %}
+			<a id="forward" href="/page{{ paginator.previous_page }}">Anterograde&nbsp;&rarr;</a>
+			{% endif %} 
+			 <span id="pages">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+			{% if paginator.next_page %}
+			<a id="back" href="/page{{ paginator.next_page }}" >&larr;&nbsp;Retrograde</a>
+			{% endif %}
+		</div> 
+	</div>

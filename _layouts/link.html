@@ -1,0 +1,26 @@
+---
+layout: default
+---
+	<div id="post">
+	<h2 class="entry-title"><a href="{{ page.link }}">{{ page.title }}</a></h2>
+	<div class="entry-type">
+	<a href="{{ page.url }}"><img src="/images/link.gif"></a>
+	</div>
+	<div class="entry-content">
+	{{ content }}
+	</div>
+  	<p align="right" class="small">
+    	&mdash; <a href="{{ page.url }}">{{ page.date | date: "%B %d, %Y" }}</a>
+  	</p>
+	</div>
+	<div id="pagenav">
+	<div class="inside">
+		{% if page.next %}
+		<a id="forward" href="{{ page.next.url }}" title="View {{ page.next.title }}">Anterograde&nbsp;&rarr;</a>
+		{% endif %}
+		<span id="pages">~</span>
+		{% if page.previous %}
+		<a id="back" href="{{ page.previous.url }}" title="View {{ page.previous.title }}">&larr;&nbsp;Retrograde</a>
+		{% endif %}
+	</div>
+	</div>

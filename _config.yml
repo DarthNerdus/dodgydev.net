@@ -3,4 +3,4 @@ server: true
 pygments: true
 paginate: 5
 markdown: kramdown
-exclude: tumblr.html convert.rb CNAME atom.xml
+exclude: tumblr.html convert.rb CNAME

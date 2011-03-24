@@ -2,6 +2,7 @@
 layout: default
 ---
 {% for post in paginator.posts %}
+	<div id="post">
 	{% if post.layout contains 'link' %}
 	<h2 class="entry-title"><a href="{{ post.link }}">{{ post.title }}</a></h2>
 	<div class="entry-type">
@@ -19,6 +20,7 @@ layout: default
   	<p align="right" class="small">
     	&mdash; <a href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
   	</p>
+	</div>
 {% endfor %}
 	<div id="pagenav">
 		<div class="inside">

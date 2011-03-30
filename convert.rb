@@ -1,7 +1,12 @@
 #!/usr/bin/env ruby
 
-files = Dir.glob("/Users/jread/Developer/blog/_blosxom/*.txt")
+require 'fileutils'
 
+Dir["/Users/jread/Developer/blog/_posts/*"].each do |file|
+  FileUtils.rm_rf file
+end
+
+files = Dir.glob("/Users/jread/Developer/blog/_blosxom/*.txt")
 for file in files
   date_prefix = File.mtime(file).strftime("%Y-%m-%d")
   lines = File.open(file, &:readlines)

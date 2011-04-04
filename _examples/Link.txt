@@ -1,0 +1,14 @@
+MarsEdit Link
+
+Title: Link: <Your Post Title>
+Body:
+<Link URL>
+
+<Content>
+
+Example:
+Title: Link: Google! 
+Body:
+http://google.com
+
+Google is super cool.

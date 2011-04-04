@@ -1,0 +1,10 @@
+MarsEdit Text
+
+Title: Text: <Your Post Title>
+Body:
+<Content>
+
+Example:
+Title: Text: My thoughts on time changes
+Body:
+Bladdy bladdy bladdy blah blah blah. etc. etc. etc.

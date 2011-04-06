@@ -1,9 +1,12 @@
 body {
-background-color: #FFF;
+/*background-color: #FFF;*/
+background-color: #fbfbf9;
 font-family: Lucida Grande, Arial, Helvetica, sans-serif;
 font-size: 11px;
-color: #333;
+/*color: #333;*/
+color: #202020;
 margin: 0;
+
 }
 
 strong, em, b, i, bold {

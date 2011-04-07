@@ -24,6 +24,16 @@ title: "#{posttitle}"
 ---
 
 END
+  elsif postlayout.eql? "draft"
+    chop = 1
+    header = <<END
+---
+layout: #{postlayout}
+title: "#{posttitle}"
+published: no
+---
+
+END
   else
     chop = 3
     header = <<-END

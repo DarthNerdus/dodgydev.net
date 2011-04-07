@@ -1,6 +1,0 @@
-To specify a draft folder, just replace the layout type with "Draft".
-
-Examples:
-"Text: Is This Thing On?" becomes "Draft: Is This Thing On?"
-
-This changes the published flag to off. Just change the title to the proper layout option when you want Jekyll to render the page.

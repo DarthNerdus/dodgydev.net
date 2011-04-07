@@ -9,6 +9,8 @@ layout: default
 	<div class="entry-type"><a href="{{ post.url }}"><img src="/images/link.gif"></a></div>
 	<div class="entry-content">
 	<p><a href="{{ post.meta }}" class="link-title">{{ post.title }}</a></p>	
+	{% when 'photo' %}
+	<div class="entry-type"><a href="{{ post.url }}"><img src="/images/photo.gif" alt="Photograph"></a></div>
 	<div class="entry-content">
 	{% when 'youtube' %}
 	<div class="entry-type">

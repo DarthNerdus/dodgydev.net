@@ -2,7 +2,7 @@
 layout: link
 title: "VPS Performance Comparison"
 date: 2009-11-29
-link: http://journal.uggedal.com/vps-performance-comparison
+meta: http://journal.uggedal.com/vps-performance-comparison
 ---
 
 Eivind Uggedal ---

@@ -2,7 +2,7 @@
 layout: link
 title: "QuickPick Pulled From App Store"
 date: 2011-04-07 11:33:05
-link: http://rentzsch.tumblr.com/post/4411310502/quickpick-kicked-out-of-the-app-store
+meta: http://rentzsch.tumblr.com/post/4411310502/quickpick-kicked-out-of-the-app-store
 ---
 
 [Seth Willits / @sethwillits](https://twitter.com/#!/sethwillits/status/55777265883168768) --

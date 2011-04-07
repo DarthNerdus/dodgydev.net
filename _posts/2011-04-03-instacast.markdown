@@ -2,7 +2,7 @@
 layout: link
 title: "Instacast"
 date: 2011-04-03
-link: http://shawnblanc.net/2011/03/instacast/
+meta: http://shawnblanc.net/2011/03/instacast/
 ---
 
 [Shawn Blanc](http://shawnblanc.net/2011/03/instacast/) ---

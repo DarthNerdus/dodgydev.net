@@ -43,7 +43,7 @@ END
 layout: #{postlayout}
 title: "#{posttitle}"
 date: #{lines[1].to_s.chomp!}
-#{postlayout}: #{lines[2].to_s.chomp!}
+meta: #{lines[2].to_s.chomp!}
 ---
 
 END

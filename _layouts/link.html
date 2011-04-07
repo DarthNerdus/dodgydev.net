@@ -2,15 +2,14 @@
 layout: default
 ---
 	<div id="post">
-	<h2 class="entry-title"><a href="{{ page.link }}">{{ page.title }}</a></h2>
-	<div class="entry-type">
-	<a href="{{ page.url }}"><img src="/images/link.gif"></a>
-	</div>
+	<!-- <h2 class="entry-title"><a href="{{ page.link }}">{{ page.title }}</a></h2> -->
+	<div class="entry-type"><a href="{{ page.url }}"><img src="/images/link.gif" alt="Link"></a></div>
 	<div class="entry-content">
+	<p><a href="{{ page.meta }}" class="link-title">{{ page.title }}</a></p>	
 	{{ content }}
 	</div>
   	<p align="right" class="small">
-    	&mdash; <a href="{{ page.url }}">{{ page.date | date: "%B %d, %Y" }}</a>
+    	&mdash; <a class="permalink" href="{{ page.url }}">{{ page.date | date: "%B %d, %Y %I:%M%p" }}</a>
   	</p>
 	</div>
 	<div id="pagenav">

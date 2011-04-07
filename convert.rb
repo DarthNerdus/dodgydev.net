@@ -16,31 +16,34 @@ for file in files
   newpost = "/Users/jread/Developer/blog/_posts/#{date_prefix}-#{postname}.markdown"
 
   if postlayout.eql? "text"
-    chop = 1
+    chop = 3
     header = <<-END
 ---
 layout: text
 title: "#{posttitle}"
+date: #{lines[1].to_s.chomp!}
 ---
 
 END
   elsif postlayout.eql? "draft"
-    chop = 1
+    chop = 3
     header = <<END
 ---
 layout: #{postlayout}
 title: "#{posttitle}"
+time: #{lines[1].to_s.chomp!}
 published: no
 ---
 
 END
   else
-    chop = 3
+    chop = 4
     header = <<-END
 ---
 layout: #{postlayout}
 title: "#{posttitle}"
-#{postlayout}: #{lines[1].to_s.chomp!}
+date: #{lines[1].to_s.chomp!}
+#{postlayout}: #{lines[2].to_s.chomp!}
 ---
 
 END

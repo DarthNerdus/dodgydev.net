@@ -1,4 +1,6 @@
 Text: DNS Speed
+2009-12-05
+
 While I unfortunately can't remember who linked this on Twitter, (Sorry! Twitter doesn't allow searching just the people I follow.) I was pointed to this [evaluation][post] by BrowserMob of Google's new DNS service compared to OpenDNS and the run-of-the-mill ISP. The results were surprising, and I suggest you take a gander at what they found.
 
  *Pause while you read up...*  

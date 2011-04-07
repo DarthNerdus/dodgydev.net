@@ -1,4 +1,6 @@
 Text: VPS Showdown
+2009-09-22
+
 *Updated 2009/09/22.*
 
 A while back on the [macsb][macsb] mailing list there was some discussion about hosting and which VPS provider was the best for a developer's typical needs. The two competitors that rose out of the discussion were [Linode][linode] and [Slicehost][slicehost]. I've used both and decided it would be good of me to post a more comprehensive guide, this is the result.

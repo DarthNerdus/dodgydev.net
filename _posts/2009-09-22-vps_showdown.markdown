@@ -1,6 +1,7 @@
 ---
 layout: text
 title: "VPS Showdown"
+date: 2009-09-22
 ---
 
 *Updated 2009/09/22.*

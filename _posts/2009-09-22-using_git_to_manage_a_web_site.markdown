@@ -1,6 +1,7 @@
 ---
 layout: link
 title: "Using Git to manage a web site"
+date: 2009-09-22
 link: http://toroid.org/ams/git-website-howto
 ---
 

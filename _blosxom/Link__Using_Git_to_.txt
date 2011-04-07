@@ -1,4 +1,5 @@
 Link: Using Git to manage a web site
+2009-09-22
 http://toroid.org/ams/git-website-howto
 
 > The one-line summary: push into a remote repository that has a detached work tree, and a post-receive hook that runs `git checkout -f`.

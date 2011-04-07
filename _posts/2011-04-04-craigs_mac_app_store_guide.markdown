@@ -1,6 +1,7 @@
 ---
 layout: link
 title: "Craig's Mac App Store guide"
+date: 2009-04-04
 link: http://furbo.org/2011/03/09/mac-app-store-guide/
 ---
 

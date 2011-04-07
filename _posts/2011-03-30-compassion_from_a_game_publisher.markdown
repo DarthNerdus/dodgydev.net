@@ -1,6 +1,7 @@
 ---
 layout: link
 title: "Compassion From a Game Publisher?"
+date: 2011-04-05
 link: http://www.reddit.com/r/Rift/comments/gdj7w/trion_worlds_you_just_blew_my_mind_xpost_from/
 ---
 

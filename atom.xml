@@ -10,7 +10,7 @@ layout: nil
  <id>http://dodgydev.net/</id>
  <author>
    <name>Jesse Read</name>
-   <email>darthnerdus@gmail.com</email>
+   <email>jessereadd@gmail.com</email>
  </author>
  {% for post in site.posts limit:10 %}
  <entry>

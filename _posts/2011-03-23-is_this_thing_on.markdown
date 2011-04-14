@@ -41,10 +41,10 @@ Giving credit where credit is due, I want to tip my hat to the people's work I b
 [marsedit]: http://www.red-sweater.com/marsedit/
 [blosxomtweet]: https://twitter.com/redsweater/status/49082879086567424
 [newpostgist]: https://gist.github.com/100171
-[convertrb]: https://github.com/DarthNerdus/darthnerdus.github.com/blob/master/convert.rb
+[convertrb]: https://github.com/jessereadd/jessereadd.github.com/blob/master/convert.rb
 [blosxom]: http://www.blosxom.com/
 [pages]: http://pages.github.com/
 [al3xnet]: http://al3x.net
 [al3xhub]: https://github.com/al3x/al3x.github.com
 [redsweater]: http://www.red-sweater.com/
-[hub]: https://github.com/darthnerdus/darthnerdus.github.com
+[hub]: https://github.com/jessereadd/jessereadd.github.com

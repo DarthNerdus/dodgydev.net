@@ -12,4 +12,4 @@ As I've increased usage of my MarsEdit-Jekyll static blog system I've started to
 * Added Draft functionality.
 * Added timestamp support for multiple posts per day.
 
-Little things that add up to a workable system for me. Again, feel free to [fork it](http://github.com/DarthNerdus/darthnerdus.github.com) and make it better.
+Little things that add up to a workable system for me. Again, feel free to [fork it](http://github.com/jessereadd/jessereadd.github.com) and make it better.

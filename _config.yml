@@ -3,4 +3,4 @@ server: false
 pygments: true
 paginate: 5
 markdown: kramdown
-exclude: tumblr.html convert.rb CNAME 404_template.html examples
+exclude: tumblr.html convert.rb CNAME 404_template.html examples config.ru

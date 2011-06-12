@@ -183,7 +183,7 @@ line-height: 22px;
 
 
 #left h1 a {
-color: #CCC;
+/*color: #CCC;*/
 text-decoration: none;
 }
 
@@ -279,6 +279,16 @@ text-decoration: underline;
 }
 
 #credit a:hover.rubedo {
+color: #DD0000;
+text-decoration: none;
+}
+
+#move a:hover.rubedo {
+color: #333;
+text-decoration: underline;
+}
+
+#move a.rubedo {
 color: #DD0000;
 text-decoration: none;
 }

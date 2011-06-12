@@ -1,47 +1,42 @@
----
-layout: default
----
-{% for post in paginator.posts %}
-	<div id="post">
-	{% case post.layout %}
-	{% when 'link' %}
-	<!-- <h2 class="entry-title"><a href="{{ post.link }}">{{ post.title }}</a></h2> -->
-	<div class="entry-type"><a href="{{ post.url }}"><img src="/images/link.gif"></a></div>
-	<div class="entry-content">
-	<p><a href="{{ post.meta }}" class="link-title">{{ post.title }}</a></p>	
-	{% when 'photo' %}
-	<div class="entry-type"><a href="{{ post.url }}"><img src="/images/photo.gif" alt="Photograph"></a></div>
-	<div class="entry-content">
-	{% when 'youtube' %}
-	<div class="entry-type">
-	<a href="{{ post.url }}"><img src="/images/video.gif"></a>
-	</div>
-	<div class="entry-content">
-	<object width="500" height="305"><param name="movie" value="http://www.youtube.com/v/{{ post.meta }}&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1"></param><param name="wmode" value="transparent"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/{{ post.meta }}&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1" type="application/x-shockwave-flash" width="500" height="305" allowFullScreen="true" wmode="transparent"></embed></object>
-	{% else %}
-	<h2 class="entry-title">{{ post.title }}</h2>
-	<div class="entry-type">
-	<a href="{{ post.url }}"><img src="/images/{{ post.layout }}.gif"></a>
-	</div>
-	<div class="entry-content">
-	{% endcase %}
-	{{ post.content }}
-	</div>
-  	<p align="right" class="small">
-    	&mdash; <a class="permalink" href="{{ post.url }}">{{ post.date | date: "%B %d, %Y %l:%M%p" }}</a>
-  	</p>
-	</div>
-{% endfor %}
-	<div id="pagenav">
-		<div class="inside">
-			{% if paginator.previous_page == 1 %} 
-			<a id="forward" href="/">Anterograde&nbsp;&rarr;</a>
-			{% elsif paginator.previous_page %}
-			<a id="forward" href="/page{{ paginator.previous_page }}">Anterograde&nbsp;&rarr;</a>
-			{% endif %} 
-			 <span id="pages">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-			{% if paginator.next_page %}
-			<a id="back" href="/page{{ paginator.next_page }}" >&larr;&nbsp;Retrograde</a>
-			{% endif %}
-		</div> 
-	</div>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	    <meta content="en-us" http-equiv="Content-Language" />
+	    <meta content="The musings of a rather dodgy developer." name="description" />
+		<title>jesse read</title>
+    <link href="/css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	  </head>
+	</head>
+	<body>
+		<div style="margin-top: 100px; margin-left: 25%; margin-right: 25%;">
+		<h2 class="entry-title">A Change of Name</h2>
+		<div class="entry-type">
+		<a href="http://darthnerdus.net/2011/06/12/who-am-i.html"><img src="/images/text.gif"></a>
+		</div>
+		<div class="entry-content">
+		<p>I’ve moved the blog to <a href="http://darthnerdus.net">darthnerdus.net</a>. To find out why, and subscribe to the new feed, read my explanation <a href="http://darthnerdus.net/2011/06/12/who-am-i.html">here</a>.</p>
+
+		</div>
+	  	<p align="right" class="small">
+	    	&mdash; <a class="permalink" href="http://darthnerdus.net/2011/06/12/who-am-i.html">June 12, 2011 12:54PM</a>
+	  	</p>
+		</div>
+
+
+
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-4879949-3']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	</body>
+</html>
